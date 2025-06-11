@@ -3,8 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Ciao Marco</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .points {
+      font-size: 1.5rem;
+      color: #0077cc;
+    }
+  </style>
 </head>
 <body>
-  <h1>Ciao Marco, hai 20 punti!</h1>
+  <div class="card">
+    <h1>Ciao Marco!</h1>
+    <p class="points">Hai 20 punti.</p>
+  </div>
 </body>
 </html>
